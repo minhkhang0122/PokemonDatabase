@@ -1,0 +1,166 @@
+    *{
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    html{
+        min-height: 100%;
+        color: #ededed;
+        font-family: "Arial","Trebuchet MS",Ubuntu,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        text-size-adjust: none;
+        background-image: linear-gradient(0, #383535, #202020);
+    }
+    header{
+        display: block;
+    }
+    /*Ảnh pokemon database*/
+    .main-header {
+        height: 124px;
+        
+        background-color: #202020;
+        background-image: linear-gradient(#3b3b3b, #202020);
+    }
+    .header-logo{
+        display: flex;
+        justify-content: center;
+    }
+  
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-size: 16px 16px;
+        font-size: 1rem;
+    }
+    #Firstheading{
+        font-size: 40px;
+        text-align: center ;
+    }
+    
+    /* Nagivation panel */
+    .container {
+        display: flex;
+        justify-content: center; /* Canh giữa theo chiều ngang */
+    }
+    
+    .list-nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+        
+    }
+    .list-nav li{
+        float: left;
+    }
+   
+    .list-nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+    .list-nav li a:hover {
+        background-color: #111111;
+    }
+    
+    /*Info of the charmander */
+    .Info{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .References{
+        color: #2769be;
+        text-decoration: none;
+        transition: color .2s,background-color .2s;
+    }
+    /* First picture */
+    .Figure1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width: 354px;
+        aspect-ratio: auto 354 / 400;
+    }   
+/*
+    .modal-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 200;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        background-color: rgba(0, 0, 0, .6);
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s .4s, opacity .4s 0s ease;
+    }
+    */
+
+    /*a href*/
+    a{
+        color: #2769be;
+        text-decoration: none;
+        transition: color .2s, background-color .2s;
+    }
+    
+    .grid-col{
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        width: 100%;
+    }
+    .grid-col>:last-child {
+        margin-bottom: 0;
+    }
+
+    /*Pokedex table*/
+    .vitals-tables{
+        width: 100%;
+    }
+    /* Fire icon */
+    .vitals-table .type-icon {
+        margin: 1px 0;
+    }
+    .type-fire {
+        background-color: rgb(231, 48, 16);
+    }
+    .type-icon {
+        display: inline-block;
+        width: 66px;
+        margin-bottom: 4px;
+        background: #dbdbdb;
+        border: 1px solid #a3a3a3;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        color: #fff;
+        font-size: .75rem;
+        font-weight: normal;
+        line-height: 1.5rem;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+        text-transform: uppercase;
+        transition: opacity .4s;
+    }
+    div{
+        display: block;
+    }
+    .text-muted {
+        color: #737373;
+    }
+
+    

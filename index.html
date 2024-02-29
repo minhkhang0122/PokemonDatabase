@@ -1,0 +1,127 @@
+<!DOCTYPE html> <!--Bắt buộc-->
+<html lang="en">
+    <!--Phần đầu-->
+    <head>
+        <title>Pokemon</title>
+        <meta charset="utf-8">  <!--Chỉnh tiếng việt-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+            
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="grid-container">
+            <a href="/" class="header-logo">
+                <picture>
+                <source type="image/avif" media="(min-width: 900px)" width="1140" height="100" srcset="https://img.pokemondb.net/design/avif/header-lg.avif">
+                <source type="image/avif" media="(min-width: 620px)" width="807" height="100" srcset="https://img.pokemondb.net/design/avif/header-md.avif, https://img.pokemondb.net/design/avif/header-md-2x.avif 2x">
+                <source type="image/avif" width="367" height="100" srcset="https://img.pokemondb.net/design/avif/header-sm.avif, https://img.pokemondb.net/design/avif/header-sm-2x.avif 2x">
+                <source type="image/png" media="(min-width: 900px)" width="1140" height="100" srcset="https://img.pokemondb.net/design/header-lg.png">
+                <source type="image/png" media="(min-width: 620px)" width="807" height="100" srcset="https://img.pokemondb.net/design/header-md.png, https://img.pokemondb.net/design/header-md-2x.png 2x">
+                <img src="https://img.pokemondb.net/design/header-sm.png" alt="Pokemon Database logo, with Scizor" srcset="https://img.pokemondb.net/design/header-sm-2x.png 2x" fetchpriority="high">
+                </picture>
+            </a>
+            </div>
+        </header>
+        
+        <h1 id="Firstheading">Charmander</h1>   
+        
+        <div class="container">
+            <div class="list-navpanel">
+                <ul class="list-nav">
+                    <li><a href="#dex-basics">Info</a></li>
+                    <li><a href="#dex-stats">Base stats</a></li>
+                    <li><a href="#dex-evolution">Evolution chart</a></li>
+                    <li><a href="#dex-flavor">Pokédex entries</a></li>
+                    <li><a href="#dex-moves">Moves learned</a></li>
+                    <li><a href="#dex-sprites">Sprites</a></li>
+                    <li><a href="#dex-locations">Locations</a></li>
+                    <li><a href="#dex-lang">Language</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        <div class="CharmanderInfo">
+            <p class="Info">Charmander is a 
+                <a class="Fire" href="https://pokemondb.net/type/fire ">Fire</a> type Pokémon introduced in Generation 1.👏👏</p>
+            <p class="Info">Charmander is a bipedal, reptilian Pokémon. Most of its body is colored orange, 
+                while its underbelly is light yellow and it has blue eyes. It has a flame at the end of its tail, which is said to signify its health.</p>
+            <p class="Info">Charmander's design is based on a lizard, however as its name suggests it may also have been inspired 
+                by salamanders, which in mythology have an affinity with fire.</p>
+            <p class="Info">Charmander is notable for being one of the three choices for a starter Pokémon in the original 
+                Game Boy games, Pokémon Red & Blue (Red & Green in Japan), along with 
+                <a class="Preferences" href="https://pokemondb.net/pokedex/bulbasaur">Bulbasaur</a> and 
+                <a class="Preferences" href="https://pokemondb.net/pokedex/squirtle">Squirtle</a>.</p>    
+        </div>
+        
+        <div class="CharmanderPic">
+            <img class="Figure1" src="https://upload.wikimedia.org/wikipedia/vi/7/73/004Charmander.png" alt="Charmander">
+            <a href="https://pokemondb.net/artwork/charmander"></a>
+            <a href="https://pokemondb.net/pokedex/charmander"><p style="text-align: center;">Charmander info</a></p> <!--This will be align to left-->
+        </div>
+        
+        <!-- Click to open the Artwork function
+        <div id="img-lightbox" class="modal-wrapper visible">
+            <div class="modal">
+                <span class="model-close" title="Close">x</span>
+                    <h3 class="Model-title">Charmander Artwork</h3>
+                    <div class="model-content" style="width: 547.164px; height: 618px;">
+                        <img src="https://img.pokemondb.net/artwork/large/charmander.jpg" width="834" height="942">
+                    </div>
+            </div>
+        </div>
+        -->
+     
+        <div class="grid-col span-md-6 span-lg-4">
+            <h2 class="Heading2">Pokédex data</h2>
+                <table class="vitals-table">
+                    <tbody>
+                        <tr>
+                            <th>National №</th>
+                            <td><strong>0004</strong></td>
+                        </tr>
+                        <tr>
+                            <th>Type</th>
+                            <td>
+                                <a class="type-icon type-fire" href="/type/fire">Fire</a> </td>
+                        </tr>
+                        <tr>
+                            <th>Species</th>
+                            <td>Lizard Pokémon</td>
+                        </tr>
+                        <tr>
+                            <th>Height</th>
+                            <td>0.6&nbsp;m (2′00″)</td>
+                        </tr>
+                        <tr>
+                            <th>Weight</th>
+                            <td>8.5&nbsp;kg (18.7&nbsp;lbs)</td>
+                        </tr>
+                        <tr>
+                            <th>Abilities</th>
+                            <td><span class="text-muted">1. 
+                                <a href="/ability/blaze" title="Powers up Fire-type moves in a pinch.">Blaze</a>
+                            </span>
+                                <br>
+                                    <small class="text-muted">
+                                        <a href="/ability/solar-power" title="In sunshine, Sp. Atk is boosted but HP decreases.">Solar Power</a> 
+                                            (hidden ability)</small><br></td>
+                        </tr>
+                        <tr>
+                            <th>Local №</th>
+                            <td>0004 <small class="text-muted">(Red/Blue/Yellow)</small>
+                                <br>0229 <small class="text-muted">(Gold/Silver/Crystal)</small>
+                                    <br>0004 <small class="text-muted">(FireRed/LeafGreen)</small>
+                                        <br>0234 <small class="text-muted">(HeartGold/SoulSilver)</small>
+                                            <br>0083 <small class="text-muted">(X/Y — Central Kalos)</small>
+                                                <br>0004 <small class="text-muted">(Let's Go Pikachu/Let's Go Eevee)</small>
+                                                    <br>0378 <small class="text-muted">(Sword/Shield)</small>
+                                                        <br>0167 <small class="text-muted">(The Indigo Disk)</small><br></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+    </body>
+</html>
